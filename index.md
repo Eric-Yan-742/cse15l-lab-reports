@@ -1,3 +1,6 @@
+Author: Eric Yan  
+PID: A17341154  
+
 # Tutorial about how to log into CSE 15L course-specific account
 
 ## Part 1: Install Vscode
