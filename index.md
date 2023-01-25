@@ -44,3 +44,4 @@ PID: A17341154
 2. To log out of the remote server, you can
    1. Press **ctrl** + **D**
    2. Type command `exit`
+
