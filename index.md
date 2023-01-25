@@ -30,17 +30,17 @@ PID: A17341154
 1. Try to run some of the commands (`cd` `ls` `mkdir` `pwd` `cat`) below on **your computer** and the **remote computer** using the terminal of vscode. Do the commands run as you expect?
     - Demo of running some of the commands on my computer
       - ![myDemo](Image/myDemo.png)
+      - When running these commands, I notice the effect of different options on the input of `ls`. For instance, `-l` will show more specific image about the file or directory,
+         `-t` will show files from most recently modified to most remotely modified, and `-a` will show all hidden files starting with `.`. I can also combine these options together
+         in any orders.
     - Demo of running some of the commands after ssh-ing to my CSE15L account
-      - ![denied](Image/denied.png)
       - ![remoteDemo](Image/remoteDemo.png)
+      - When I connect to the remote server, I find that the prompt of the terminal changes as a sign of connected successfully.  I use commands like `cd`, `ls`, `pwd`, `cp` to check the directory and files on the remote server. As I expect, these commands
+         work the same as on my local computer. They just show files on the remote server.
+      - ![denied](Image/denied.png)
+      - However, when I try to change to the directory of my groupmate's account by using `cd`, I get a permission denied error. I guess that's for
+         privacy protection because you cannot go to other users' account and edit files as you want. To get into my groupmate's directory, I probably need his password or the
+         password of the administrator of the server.
 2. To log out of the remote server, you can
    1. Press **ctrl** + **D**
    2. Type command `exit`
-
-- When running these commands, I notice the effect of different options on the input of `ls`. For instance, `-l` will show more specific image about the file or directory,
-`-t` will show files from most recently modified to most remotely modified, and `-a` will show all hidden files starting with `.`. I can also combine these options together
-in any orders.
-- When I connect to the remote server, I find that the prompt of the terminal changes as a sign of connected successfully.  I use commands like `cd`, `ls`, `pwd` to check the directory and files on the remote server. As I expect, these commands
-work the same as on my local computer. They just show files on the remote server. However, when I try to change to the directory of my groupmate's account by using `cd`, I get a permission denied error. I guess that's for
-privacy protection because you cannot go to other users' account and edit files as you want. To get into my groupmate's directory, I probably need his password or the
-password of the administrator of the server.
