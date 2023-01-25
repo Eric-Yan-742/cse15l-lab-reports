@@ -45,4 +45,3 @@ PID: A17341154
    1. Press **ctrl** + **D**
    2. Type command `exit`
 
-theme: Jekyll
