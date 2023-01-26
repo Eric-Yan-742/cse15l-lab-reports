@@ -44,7 +44,7 @@
    2. ![demo2](image2/demo2.png)
        - In this screenshot, I type the url "http://localhost:5000/add-message?s=String%20Server" to initiate another request. Again, `handleRequest(URI url)` receives the url as the argument. It identifies the **add-message** in the path and splits the query part with **=** as the separator. Then, the method finds that the first element of `parameters` equals to `s` so that it knows we input the correct format. Thus, it concatenates the right side of **=** to `message` and returns `message`, so we can see `message` on the page. Because `handleRequest` concatenates a `\n` at the end of `message` in the last request, **String Server** appear in a new line this time.
 
-## Part3: A bug from lab3
+## Part2: A bug from lab3
 
 - This is a bug in the **LinkedListExample.java"
 
