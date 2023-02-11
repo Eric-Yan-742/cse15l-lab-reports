@@ -69,7 +69,9 @@
     }
     ```
 
-    - Symptom: The test never stops. There seems to be an infinite loop in `append()`
+    - Symptom:
+      - ![symptom1](image2/symptom1.png)
+      - The test never stops. There seems to be an infinite loop in `append()`
 
 2. An input that doesn't induce a faliure (append when there's only one node in linkedlist)
 
@@ -89,6 +91,10 @@
         assertEquals(null, curTail.next);
     }
     ```
+
+    - Symptom:
+      - ![non_failure](image2/non_faliure_input_symptom.png)
+      - All tests pass when there's only one node in linkedlist
 
 3. Fix
    1. Before
