@@ -1,4 +1,4 @@
-# Lab Report 6: Grading Script Demo
+# Lab Report 5: Grading Script Demo
 
 - This is the code of my grading script
 
